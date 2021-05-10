@@ -1,0 +1,236 @@
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-footer-text-color: #ffffff;
+  --portfolio-filters-background: #f5f4fa;
+  --main-portfolio-background: #ffffff;
+}
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo-part-blue {
+  color: var(--accent-color);
+}
+
+/* ################### HEADER ################### */
+.mail-link,
+.tel-link {
+  color: var(--main-text-color);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.site-nav .menu-link {
+  color: var(--secondary-text-color);
+}
+
+.menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.address-link {
+  color: var(--main-text-color);
+}
+
+.site-nav .current,
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+/* ################### END HEADER ################### */
+
+/* ################### FOOTER ################### */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-white {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-footer-text-color);
+}
+
+.address-house {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address-list-link {
+  /* font-weight: 500; */
+  color: var(--main-footer-text-color);
+}
+
+.phone,
+.e-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ################### END FOOTER ################### */
+
+/* ################### INDEX HTML ################### */
+
+/* ################### HERO ################### */
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+
+/* ################### END HERO ################### */
+
+/* ################### SPECIFICS ################### */
+.specifics-item {
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+.specifics-item-title {
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.specifics-item-text {
+  line-height: 1.71;
+}
+/* ################### END SPECIFICS ################### */
+
+/* ################### WORK ################### */
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* ################### END WORK ################### */
+
+/* ################### TEAM ################### */
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.team-item {
+  background: #ffffff;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-item-name {
+  font-weight: 500;
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
+
+/* ################### END TEAM ################### */
+
+/* **************** END INDEX HTML **************** */
+
+/* **************** PORTFOLIO HTML **************** */
+/* ################### FILTERS AND CARDS ################### */
+.filters-list-item-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--portfolio-filters-background);
+  color: var(--secondary-text-color);
+}
+
+.filters-list-item-button:focus,
+.filters-list-item-button:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cards-list-item {
+  background-color: var(--main-portfolio-background);
+}
+
+.cards-list-item-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.cards-list-item-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* ################### END FILTERS AND CARDS ################### */
+/* **************** END PORTFOLIO HTML **************** */
