@@ -15,47 +15,51 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <nav class="site-nav list">
-        <a class="logo link" href="./index.html" lang="en">
-          <span class="logo-part-blue">Web</span>Studio
-        </a>
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html"> Студия </a>
+      <div class="container">
+        <nav class="site-nav list">
+          <a class="logo link" href="./index.html" lang="en">
+            <span class="logo-part-blue">Web</span>Studio
+          </a>
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link current link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="mail-and-tel list">
+          <li>
+            <a
+              class="menu-link address-link link"
+              href="mailto:info@devstudio.com"
+              lang="en"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="menu-item">
-            <a class="menu-link current link" href="./portfolio.html">
-              Портфолио
+          <li>
+            <a class="menu-link address-link link" href="tel:+380961111111">
+              +38 096 111 11 11
             </a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Контакты</a>
-          </li>
         </ul>
-      </nav>
-
-      <ul class="list">
-        <li>
-          <a
-            class="menu-link address-link link"
-            href="mailto:info@devstudio.com"
-            lang="en"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="menu-link address-link link" href="tel:+380961111111">
-            +38 096 111 11 11
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <!-- FILTERS AND CARDS -->
       <section class="filters-and-cards">
-        <h1 class="filters-and-cards-title">Фильтра и Карточки</h1>
-        <ul class="filters-list">
+        <div class="container">
+          <h1 class="filters-and-cards-title">Фильтра и Карточки</h1>
+        </div>
+        <ul class="container filters-list">
           <li class="filters-list-item list">
             <button class="filters-list-item-button" type="button">Все</button>
           </li>
@@ -81,7 +85,7 @@
           </li>
         </ul>
 
-        <ul class="cards-list list">
+        <ul class="container cards-list list">
           <li class="cards-list-item">
             <a class="cards-list-item-link link" href="">
               <img

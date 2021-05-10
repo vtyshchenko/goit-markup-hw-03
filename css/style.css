@@ -24,10 +24,46 @@ body {
 }
 
 /* ################### HEADER ################### */
-.mail-link,
+.container {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  /* background: lightblue; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 16px;
+  width: 294px;
+  margin: 0;
+}
+
+.mail-and-tel {
+  display: flex;
+  margin: 0;
+}
+
+.mail-and-tel li {
+  padding: 0 50px 0 50px;
+}
+/* .mail-link,
 .tel-link {
   color: var(--main-text-color);
-}
+} */
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -100,13 +136,13 @@ body {
 .hero {
   background-color: #2f303a;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -128,9 +164,21 @@ body {
   cursor: pointer;
 }
 
+.container-flex-column {
+  flex-direction: column;
+  width: 100%;
+}
+
 /* ################### END HERO ################### */
 
 /* ################### SPECIFICS ################### */
+.specifics-list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
 .specifics-item {
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -150,7 +198,6 @@ body {
 /* ################### END SPECIFICS ################### */
 
 /* ################### WORK ################### */
-
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -158,7 +205,16 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  width: 100%;
 }
+.work-list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  justify-content: space-between;
+}
+
 /* ################### END WORK ################### */
 
 /* ################### TEAM ################### */
@@ -173,6 +229,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  width: 100%;
+}
+
+.team-list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: space-between;
 }
 
 .team-item {
@@ -195,6 +259,14 @@ body {
 
 /* **************** PORTFOLIO HTML **************** */
 /* ################### FILTERS AND CARDS ################### */
+
+.filters-list {
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
 .filters-list-item-button {
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -211,6 +283,14 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
   cursor: pointer;
+}
+
+.cards-list {
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 .cards-list-item {
