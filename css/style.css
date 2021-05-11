@@ -30,7 +30,7 @@ body {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  background: lightblue;
+  /* background: lightblue; */
 }
 
 .header {
@@ -38,6 +38,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 94px;
 }
 
 .site-nav {
@@ -59,6 +60,7 @@ body {
   justify-content: space-between;
   margin: 32px 0;
   margin-left: 93px;
+  padding: 0;
 }
 
 .site-nav .menu-link {
@@ -88,6 +90,7 @@ body {
 .mail-and-tel {
   display: flex;
   /* margin: 0 0 0 auto; */
+  padding: 0;
   margin: 32px 0;
 }
 
@@ -113,6 +116,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-footer-text-color);
+  margin-bottom: 20px;
 }
 
 .address-house {
@@ -120,6 +124,10 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.address-list {
+  padding: 0;
 }
 
 .address-list-link {
@@ -274,11 +282,17 @@ body {
   padding-left: 0;
   padding-right: 0;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 34px;
+  height: 54px;
+}
+
+.filters-list-item:not(:first-child) {
+  margin-left: 8px;
+  margin-bottom: 50px;
 }
 
 .filters-list-item-button {
-  font-family: Roboto, sans-serif;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -286,6 +300,9 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--portfolio-filters-background);
   color: var(--secondary-text-color);
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .filters-list-item-button:focus,
@@ -304,7 +321,7 @@ body {
   flex-wrap: wrap;
 
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 112px;
 }
 
 .cards-list-item {
