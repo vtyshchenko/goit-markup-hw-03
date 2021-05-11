@@ -25,10 +25,12 @@ body {
 
 /* ################### HEADER ################### */
 .container {
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   width: 1170px;
-  /* background: lightblue; */
+  margin-left: auto;
+  margin-right: auto;
+  background: lightblue;
 }
 
 .header {
@@ -41,29 +43,7 @@ body {
 .site-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-
-.menu {
-  display: flex;
-  justify-content: space-between;
-  height: 16px;
-  width: 294px;
-  margin: 0;
-}
-
-.mail-and-tel {
-  display: flex;
-  margin: 0;
-}
-
-.mail-and-tel li {
-  padding: 0 50px 0 50px;
-}
-/* .mail-link,
-.tel-link {
-  color: var(--main-text-color);
-} */
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -72,6 +52,13 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+  margin-left: 93px;
 }
 
 .site-nav .menu-link {
@@ -94,6 +81,23 @@ body {
 .menu-link:focus {
   color: var(--accent-color);
 }
+.menu .menu-item + .menu-item {
+  margin-left: 60px;
+}
+
+.mail-and-tel {
+  display: flex;
+  /* margin: 0 0 0 auto; */
+  margin: 32px 0;
+}
+
+.mail-and-tel .mt-item + .mt-item {
+  margin-left: 60px;
+}
+/* .mail-link,
+.tel-link {
+  color: var(--main-text-color);
+} */
 
 /* ################### END HEADER ################### */
 
@@ -259,12 +263,18 @@ body {
 
 /* **************** PORTFOLIO HTML **************** */
 /* ################### FILTERS AND CARDS ################### */
-
+.filters-and-cards-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .filters-list {
+  display: flex;
   justify-content: center;
+  /* align-items: center; */
   padding-left: 0;
   padding-right: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .filters-list-item-button {
@@ -286,15 +296,29 @@ body {
 }
 
 .cards-list {
+  display: flex;
+  justify-content: center;
   padding-left: 0;
   padding-right: 0;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .cards-list-item {
   background-color: var(--main-portfolio-background);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.cards-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.cards-list-item:nth-child(n + 7) {
+  margin-bottom: 0;
 }
 
 .cards-list-item-title {
