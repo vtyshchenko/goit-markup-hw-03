@@ -111,16 +111,14 @@ body {
 .mail-and-tel .mt-item + .mt-item {
   margin-left: 50px;
 }
-/* .mail-link,
-.tel-link {
-  color: var(--main-text-color);
-} */
 
 /* ################### END HEADER ################### */
 
 /* ################### FOOTER ################### */
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-white {
@@ -131,7 +129,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-footer-text-color);
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -140,7 +137,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding-bottom: 60px;
 }
 
 .address-list {
@@ -171,6 +167,8 @@ body {
   background-color: #2f303a;
   color: #ffffff;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 195px;
 }
 
 .hero-title {
@@ -204,15 +202,14 @@ body {
   cursor: pointer;
 }
 
-.container-flex-column {
-  padding-top: 200px;
-  padding-bottom: 195px;
-  margin-bottom: 99px;
-}
-
 /* ################### END HERO ################### */
 
 /* ################### SPECIFICS ################### */
+.specifics {
+  padding-top: 99px;
+  padding-bottom: 94px;
+}
+
 .specifics-list {
   display: flex;
   justify-content: center;
@@ -220,7 +217,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .specifics-item {
@@ -246,6 +242,10 @@ body {
 /* ################### END SPECIFICS ################### */
 
 /* ################### WORK ################### */
+.work {
+  padding-bottom: 100px;
+}
+
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -271,6 +271,8 @@ body {
 /* ################### TEAM ################### */
 .team {
   background-color: #f5f4fa;
+  padding-top: 20px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -282,6 +284,7 @@ body {
   color: var(--secondary-text-color);
   width: 100%;
   margin: 0;
+  padding-bottom: 50px;
 }
 
 .team-list {
@@ -314,8 +317,8 @@ body {
 /* **************** PORTFOLIO HTML **************** */
 /* ################### FILTERS AND CARDS ################### */
 .filters-and-cards {
-  margin-top: 94px;
-  margin-bottom: 112px;
+  padding-top: 94px;
+  padding-bottom: 112px;
 }
 .filters-and-cards-title {
   margin-top: 0;
