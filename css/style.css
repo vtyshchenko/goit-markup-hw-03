@@ -6,6 +6,21 @@
   --portfolio-filters-background: #f5f4fa;
   --main-portfolio-background: #ffffff;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .list {
   list-style: none;
 }
@@ -38,7 +53,6 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 94px;
 }
 
 .site-nav {
@@ -84,7 +98,7 @@ body {
   color: var(--accent-color);
 }
 .menu .menu-item + .menu-item {
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 .mail-and-tel {
@@ -95,7 +109,7 @@ body {
 }
 
 .mail-and-tel .mt-item + .mt-item {
-  margin-left: 60px;
+  margin-left: 50px;
 }
 /* .mail-link,
 .tel-link {
@@ -110,12 +124,14 @@ body {
 }
 
 .logo-white {
+  display: block;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-footer-text-color);
+  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -124,10 +140,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  padding-bottom: 60px;
 }
 
 .address-list {
   padding: 0;
+  margin: 0;
+}
+
+.address-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-list-link {
@@ -157,6 +179,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0 0 30px 0;
 }
 
 .hero-button {
@@ -168,6 +191,11 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #ffffff;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  height: 50px;
+  width: 200px;
 }
 
 .hero-button:focus,
@@ -177,23 +205,31 @@ body {
 }
 
 .container-flex-column {
-  flex-direction: column;
-  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 195px;
+  margin-bottom: 99px;
 }
 
 /* ################### END HERO ################### */
 
 /* ################### SPECIFICS ################### */
 .specifics-list {
+  display: flex;
+  justify-content: center;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
   justify-content: space-between;
+  margin-bottom: 94px;
 }
 
 .specifics-item {
   letter-spacing: 0.03em;
   font-size: 14px;
+}
+
+.specifics-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .specifics-item-title {
@@ -218,8 +254,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   width: 100%;
+  margin: 0 0 50px 0;
 }
 .work-list {
+  display: flex;
+  justify-content: center;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -242,9 +281,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   width: 100%;
+  margin: 0;
 }
 
 .team-list {
+  display: flex;
+  justify-content: center;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -271,6 +313,10 @@ body {
 
 /* **************** PORTFOLIO HTML **************** */
 /* ################### FILTERS AND CARDS ################### */
+.filters-and-cards {
+  margin-top: 94px;
+  margin-bottom: 112px;
+}
 .filters-and-cards-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -321,7 +367,6 @@ body {
   flex-wrap: wrap;
 
   margin-top: 0;
-  margin-bottom: 112px;
 }
 
 .cards-list-item {
@@ -337,6 +382,9 @@ body {
 .cards-list-item:nth-child(n + 7) {
   margin-bottom: 0;
 }
+.cards-list-item-text {
+  margin: 20px 24px;
+}
 
 .cards-list-item-title {
   font-style: normal;
@@ -345,6 +393,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
+  margin: 0 0 4px 0;
 }
 
 .cards-list-item-type {
@@ -352,6 +401,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin: 0;
 }
 /* ################### END FILTERS AND CARDS ################### */
 /* **************** END PORTFOLIO HTML **************** */
