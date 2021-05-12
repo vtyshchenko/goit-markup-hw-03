@@ -40,15 +40,18 @@ body {
 
 /* ################### HEADER ################### */
 .container {
-  /* display: flex; */
-  /* align-items: center; */
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  /* background: lightblue; */
+  /* background: aqua; */
 }
 
 .header {
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -208,6 +211,7 @@ body {
 .specifics {
   padding-top: 99px;
   padding-bottom: 47px;
+  /* background-color: darkseagreen; */
 }
 
 .specifics-list {
@@ -243,8 +247,9 @@ body {
 
 /* ################### WORK ################### */
 .work {
-  padding-bottom: 47px;
+  padding-top: 47px;
   padding-bottom: 94px;
+  /* background-color: khaki; */
 }
 
 .work-title {
@@ -271,7 +276,7 @@ body {
 
 /* ################### TEAM ################### */
 .team {
-  background-color: #f5f4fa;
+  /* background-color: #f5f4fa; */
   padding-top: 20px;
   padding-bottom: 94px;
 }
