@@ -307,9 +307,9 @@ body {
 /* ################### END WORK ################### */
 
 /* ################### TEAM ################### */
-/* .team { */
-/* background-color: #f5f4fa; */
-/* } */
+.team {
+  background-color: #f5f4fa;
+}
 
 .team-title {
   font-size: 36px;
