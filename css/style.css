@@ -44,6 +44,10 @@ ol {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
@@ -347,8 +351,8 @@ body {
   margin-right: 30px;
 }
 
-.team-item-img {
-  margin-bottom: 30px;
+.team-item-text {
+  margin: 30px 0 30px 0;
 }
 
 .team-item-name {
@@ -357,10 +361,6 @@ body {
   color: var(--secondary-text-color);
 
   margin: 0 0 10px 0;
-}
-
-.team-item-profession {
-  margin: 0 0 30px 0;
 }
 
 /* ################### END TEAM ################### */
@@ -428,7 +428,6 @@ body {
   );
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .cards-list-item:nth-child(3n) {
@@ -439,12 +438,11 @@ body {
   margin-bottom: 0;
 }
 
-/* .cards-list-item-img {
-  margin-bottom: 20px;
-} */
-
 .cards-list-item-text {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .cards-list-item-title {
