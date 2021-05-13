@@ -8,6 +8,24 @@
   --cards-list-count: 3;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -38,14 +56,19 @@ body {
 .logo-part-blue {
   color: var(--accent-color);
 }
-
-/* ################### HEADER ################### */
 .container {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
   /* background: aqua; */
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* ################### HEADER ################### */
 
 .header {
   background: #ffffff;
@@ -281,11 +304,9 @@ body {
 /* ################### END WORK ################### */
 
 /* ################### TEAM ################### */
-.team {
-  /* background-color: #f5f4fa; */
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+/* .team { */
+/* background-color: #f5f4fa; */
+/* } */
 
 .team-title {
   font-size: 36px;
@@ -344,10 +365,7 @@ body {
 
 /* **************** PORTFOLIO HTML **************** */
 /* ################### FILTERS AND CARDS ################### */
-.filters-and-cards {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .filters-and-cards-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -418,12 +436,12 @@ body {
   margin-bottom: 0;
 }
 
-.cards-list-item-img {
+/* .cards-list-item-img {
   margin-bottom: 20px;
-}
+} */
 
 .cards-list-item-text {
-  margin: 0 24px 20px 24px;
+  padding: 20px 24px;
 }
 
 .cards-list-item-title {
