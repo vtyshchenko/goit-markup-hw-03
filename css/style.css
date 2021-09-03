@@ -132,6 +132,7 @@ body {
 .menu-link:focus {
   color: var(--accent-color);
 }
+
 .menu .menu-item + .menu-item {
   margin-left: 50px;
 }
